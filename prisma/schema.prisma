@@ -18,6 +18,6 @@ model Restaurant {
     name String
     cuisine String
     website String
-    openingTimes Json
+    openingTimes String
     createdAt DateTime @default(now())
 }
